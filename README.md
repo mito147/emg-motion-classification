@@ -1,7 +1,8 @@
 # EMG Pre-training Data Collection
 
-事前学習用の筋電位データ取得プログラムです。  
 This repository provides scripts for collecting EMG data for pre-training.
+
+事前学習用の筋電位データ取得プログラムです。  
 
 This repository implements the EMG data collection program related to Section 2.3.1 of the following paper:
 
