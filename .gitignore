@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+error.log
+
+# Generated EMG data
+EMG_data/
+*.npy
+*.csv
+*.png
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# Windows system files
+Thumbs.db
+desktop.ini
