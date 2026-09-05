@@ -1,21 +1,69 @@
+# =============================================
+# Python
+# =============================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
 
-# Logs
-*.log
-error.log
-
-# Generated EMG data
-EMG_data/
-*.npy
-*.csv
-*.png
-
-# Virtual environments
-.env
+# 仮想環境 / Virtual environments
 .venv/
 venv/
+env/
 
-# Windows system files
+# =============================================
+# 生成データ・学習成果物 / Generated data & artifacts
+# =============================================
+# EMG生データ・前処理済みデータ
+# Raw / prepared EMG data (contains subjects' biometric signals - never commit)
+*.npy
+*.npz
+*.csv
+
+# 学習済みモデル / Trained models
+*.pth
+*.pt
+
+# 生成メタデータJSON(絶対パス=ユーザー名を含む)
+# Generated metadata JSON (contains absolute paths / username)
+x_train_*.json
+train_FC_*.json
+
+# ログ / Logs
+logs/
+*.log
+PyTorch_learning_time.txt
+
+# 出力フォルダ / Output folders
+EMG_data/
+DL_model/
+x_train_data/
+
+# 図・音声などの生成物 / Generated figures & audio
+*.png
+*.wav
+
+# =============================================
+# エディタ・IDE / Editors & IDEs
+# =============================================
+.vscode/
+.idea/
+*.swp
+
+# =============================================
+# OS
+# =============================================
+# Windows
 Thumbs.db
-desktop.ini
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =============================================
+# Jupyter
+# =============================================
+.ipynb_checkpoints/
