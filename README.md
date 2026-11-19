@@ -47,9 +47,9 @@ The following paper also provides background on using PyTorch for training and r
 > “Performance Comparison of Keras and PyTorch in Gesture Manipulation Using Myoelectric Potentials,”  
 > *Bulletin of the Faculty of Education, Yamaguchi University*, Vol. 75, pp. 235–244, 2026.  
 
-**本コードは公開用の参考実装であり、論文の全実験を再現するコード一式ではありません。** 学習条件は論文と異なる場合があります。第2段階の機械学習による識別、Kerasとの比較コード、評価ゲームは含まず、カーソル操作はMLPの予測系列に対するルールで判定します。
+**本コードは公開用の参考実装であり、論文の全実験を再現するコード一式ではありません。** 学習条件は論文と異なる場合があります。第2段階の機械学習による識別は含まず、カーソル操作はMLPの予測系列に対するルールで判定します。
 
-**This is a public reference implementation, not a complete reproduction of the papers' experiments.** Training settings may differ. The second-stage machine-learning classifier, Keras comparison code, and evaluation games are not included; cursor actions use rules applied to MLP prediction sequences.
+**This is a public reference implementation, not a complete reproduction of the papers' experiments.** Training settings may differ. The second-stage machine-learning classifier is not included; cursor actions use rules applied to MLP prediction sequences.
 
 収集コードの説明には、スポーツセンシング社製のDSPワイヤレス筋電位センサ（湿式）ハイエンドモデル  
 （SS-EMGW-HM）での動作確認が記載されています。
